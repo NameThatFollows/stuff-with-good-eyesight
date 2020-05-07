@@ -1,0 +1,24 @@
+{
+  "name": "stuff-with-good-eyesight",
+  "version": "1.0.0",
+  "description": "A joke package with a list of things with good eyesight.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NameThatFollows/stuff-with-good-eyesight.git"
+  },
+  "author": "NameThatFollows",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NameThatFollows/stuff-with-good-eyesight/issues"
+  },
+  "homepage": "https://github.com/NameThatFollows/stuff-with-good-eyesight#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
