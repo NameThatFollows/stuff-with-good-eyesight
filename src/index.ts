@@ -29,7 +29,7 @@ function randomItem(): ThingWithGoodEyesight {
   return eyesightList[Math.floor(Math.random() * eyesightList.length)];
 }
 
-function randomItemString(): string {
+export function randomItemString(): string {
   const randomThing = randomItem();
   return `${randomThing.name} ${randomThing.plural ? "have" : "has"} great eyesight`
 }
